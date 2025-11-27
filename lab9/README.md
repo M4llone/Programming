@@ -1,1 +1,1 @@
-![alt text](sreens/image-2.png)
+![alt text](screens/image-2.png)
