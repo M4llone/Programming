@@ -20,17 +20,4 @@ void print_array(int size, int array[size]) {
     printf("\n");
 }
 
-int main() {
 
-    int array[N] = {6, -5, 3, 77, 4};
-    // Выводим изначальный массив
-    print_array(N, array);
-
-    // Сортируем по возрастанию
-    bubble_sort(N, array);
-
-    // Вот они все, слева-направо..
-    print_array(N, array);
-
-    return 0;
-}
