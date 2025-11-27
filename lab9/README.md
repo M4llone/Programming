@@ -1,7 +1,7 @@
 # Задания на 3
 - пункты 1-5
 ![alt text](screens/image.png)
--пункты 6-14
+- пункты 6-14
 ![alt text](<screens/image copy.png>)
 ![alt text](<screens/image copy 2.png>)
 ![alt text](<screens/image copy 3.png>)
@@ -25,9 +25,11 @@
 ![alt text](<screens/image copy 10.png>)
 - пункты 5-7
 ![alt text](<screens/image copy 11.png>)
+git diff --staged пустой так как мы не переносили файл на новый этап
 - пункты 8-11
 ![alt text](<screens/image copy 12.png>)
-что происходит
+git diff отображает новые изменения, а git diff --staged отображает
+прошлые проиндексированные изменения которые были в git diff
 - пункты 12-14
 ![alt text](<screens/image copy 13.png>)
 - пункты 15-23
