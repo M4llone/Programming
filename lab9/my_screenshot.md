@@ -1,6 +1,6 @@
 ![alt text](image-1.png)
 hello
-![alt text](image-2.png)
+![alt text](screens/image-2.png)
 print
 ![alt text](image-3.png)
 ![alt text](image-4.png)
