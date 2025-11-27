@@ -20,4 +20,8 @@ void print_array(int size, int array[size]) {
     printf("\n");
 }
 
+main(){
 
+    int a[] = {4,2};
+    bubble_sort(3,a);
+}
