@@ -1,3 +1,5 @@
+![alt text](screens/martin-lazy.gif)
+
 # Задания на 3
 - пункты 1-5
 ![alt text](screens/image.png)
