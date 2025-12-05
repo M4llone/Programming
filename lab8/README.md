@@ -1,4 +1,4 @@
-
+![alt text](nerd-emoji.gif)
 # Условие задания
 ![alt text](image-1.png)
 
