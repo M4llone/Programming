@@ -1,7 +1,7 @@
-![alt text](animation.gif.gif)
+![alt text](files/animation.gif.gif)
 
 # Условие задания
-![alt text](image.png)
+![alt text](files/image.png)
 
 # Вывод
-![alt text](image-1.png)
+![alt text](files/image-1.png)

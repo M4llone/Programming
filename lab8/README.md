@@ -1,6 +1,6 @@
-![alt text](nerd-emoji.gif)
+![alt text](files/nerd-emoji.gif)
 # Условие задания
-![alt text](image-1.png)
+![alt text](files/image-1.png)
 
 # Вывод
-![alt text](image-2.png)
+![alt text](files/image-2.png)
