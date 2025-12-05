@@ -1,2 +1,2 @@
 # Programming
-![alt text](spongebob-panic.gif)
+![alt text](spongebob-panic.gif) text
