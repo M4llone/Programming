@@ -7,7 +7,7 @@ int main(){
     printf("Введите количество конусов: ");
     scanf("%d", &N);
     
-    cones = create_and_fill_cones(N);
+    cones = create_cone(N);
     
     for (int i = 0; i < N; i++) {
         printf("Конус %d: ", i+1);

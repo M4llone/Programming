@@ -18,7 +18,7 @@ void square_print(struct cone cone){
 }
 
 
-struct cone* create_and_fill_cones(int N) {
+struct cone* create_cone(int N) {
     struct cone* cones = (struct cone*)malloc(N * sizeof(struct cone));
     
     if (cones == NULL) {
@@ -44,7 +44,7 @@ int main(){
     printf("Введите количество конусов: ");
     scanf("%d", &N);
     
-    cones = create_and_fill_cones(N);
+    cones = create_cone(N);
     
     for (int i = 0; i < N; i++) {
         printf("Конус %d: ", i+1);
