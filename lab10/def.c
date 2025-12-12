@@ -11,7 +11,7 @@ void square_print(struct cone *cone){
 
 
 struct cone* create_cone(int N) {
-    struct cone* cones = (struct cone*)malloc(N * sizeof(struct cone));
+    struct cone* cones = malloc(N * sizeof(struct cone));
     
     if (cones == NULL) {
         return NULL;
