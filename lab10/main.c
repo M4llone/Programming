@@ -11,6 +11,6 @@ int main(){
     
     for (int i = 0; i < N; i++) {
         printf("Конус %d: ", i+1);
-        square_print(cones[i]);
+        square_print(&cones[i]);
     }
 }

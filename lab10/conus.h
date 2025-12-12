@@ -12,7 +12,7 @@ struct cone
 };
 
 
-void square_print(struct cone cone);
+void square_print(struct cone *cone);
 struct cone* create_cone(int N);
 
 
