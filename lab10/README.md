@@ -1,4 +1,4 @@
-
+![alt text](screens/you-story.gif)
 
 # Вариант №8
 ![alt text](screens/image.png)
