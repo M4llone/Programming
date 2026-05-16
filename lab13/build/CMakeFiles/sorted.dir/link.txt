@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/sorted.dir/src/main.c.o CMakeFiles/sorted.dir/src/smarthome.c.o -o sorted 

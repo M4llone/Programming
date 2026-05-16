@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libMY_LOG_shared.so -o libMY_LOG_shared.so CMakeFiles/MY_LOG_shared.dir/src/smarthome.c.o 

@@ -1,0 +1,6 @@
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/sorted.dir
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/shared.dir
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/static.dir
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/program_with_lib.dir
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/edit_cache.dir
+/home/mallone/C/git/Programming/lab13/build/CMakeFiles/rebuild_cache.dir
