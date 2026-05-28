@@ -1,0 +1,4 @@
+/home/mallone/C/git/Programming/RGR_interpreter/build/CMakeFiles/brainfuck.dir
+/home/mallone/C/git/Programming/RGR_interpreter/build/CMakeFiles/test_runner.dir
+/home/mallone/C/git/Programming/RGR_interpreter/build/CMakeFiles/edit_cache.dir
+/home/mallone/C/git/Programming/RGR_interpreter/build/CMakeFiles/rebuild_cache.dir

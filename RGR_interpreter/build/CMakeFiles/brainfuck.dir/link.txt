@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra CMakeFiles/brainfuck.dir/main.c.o CMakeFiles/brainfuck.dir/function_bf.c.o -o brainfuck 

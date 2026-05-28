@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra CMakeFiles/test_runner.dir/test_bf.c.o CMakeFiles/test_runner.dir/function_bf.c.o -o test_runner  -lcmocka 

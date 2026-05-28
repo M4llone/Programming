@@ -68,14 +68,15 @@ void *matrix_routine(void *args) {
     
     return NULL;
 }
-
+int a = 0;
 void *routine(void *args) {
     pthread_cleanup_push(print_pthread, args);
     
     for (int i = 0; i < 10; i++) {
-        pthread_mutex_lock(&mutex);
+       // pthread_mutex_lock(&mutex);
+        a++;
         printf("thread %d: i=%d\n", *((int *)args), i + 1);
-        pthread_mutex_unlock(&mutex);
+      //  pthread_mutex_unlock(&mutex);
         sleep(1);
     }
     
