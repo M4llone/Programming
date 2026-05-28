@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/program_with_lib.dir/src/main.c.o -o program_with_lib  -Wl,-rpath,/home/mallone/C/git/Programming/lab13/build libshared.so 

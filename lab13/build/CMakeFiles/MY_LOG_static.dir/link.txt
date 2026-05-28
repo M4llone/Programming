@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMY_LOG_static.a CMakeFiles/MY_LOG_static.dir/src/smarthome.c.o
-/usr/bin/ranlib libMY_LOG_static.a
