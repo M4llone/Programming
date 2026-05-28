@@ -7,7 +7,6 @@
 #include <stdio.h>
 #include "func.h"
 
-// 1. Тест валидации корректных скобок
 static void test_check_data_correct(void **state) {
     (void) state;
     const char *good_code = "+++++[>+++++++<-].";
@@ -15,7 +14,6 @@ static void test_check_data_correct(void **state) {
     assert_int_equal(result, 1); 
 }
 
-// 2. Тест валидации неверного баланса (лишняя закрывающая скобка)
 static void test_check_data_unmatched_close(void **state) {
     (void) state;
     const char *bad_code = "+++++>-<-]";
@@ -23,7 +21,6 @@ static void test_check_data_unmatched_close(void **state) {
     assert_int_equal(result, 0); 
 }
 
-// 3. Тест валидации неверного баланса (незакрытая открывающая скобка)
 static void test_check_data_unmatched_open(void **state) {
     (void) state;
     const char *bad_code = "+++++[>++++<-";
@@ -31,7 +28,6 @@ static void test_check_data_unmatched_open(void **state) {
     assert_int_equal(result, 0); 
 }
 
-// 4. Тест функции ручной очистки/обнуления ленты (clear)
 static void test_clear_tape(void **state) {
     (void) state;
     int size = 10;
@@ -50,7 +46,6 @@ static void test_clear_tape(void **state) {
     free(tape);
 }
 
-// 5. Тест успешного выполнения базовых команд интерпретатора (+ и -)
 static void test_interpreter_success_simple(void **state) {
     (void) state;
     int tape_size = 10;
@@ -66,7 +61,6 @@ static void test_interpreter_success_simple(void **state) {
     free(tape);
 }
 
-// 6. Тест критической ошибки: Выход за левую границу ленты (< на нулевой позиции)
 static void test_interpreter_error_left_bound(void **state) {
     (void) state;
     int tape_size = 5;
@@ -80,7 +74,6 @@ static void test_interpreter_error_left_bound(void **state) {
     free(tape);
 }
 
-// 7. Тест критической ошибки: Выход за правую границу ленты (>)
 static void test_interpreter_error_right_bound(void **state) {
     (void) state;
     int tape_size = 2;

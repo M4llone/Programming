@@ -1,7 +1,6 @@
 #include "func.h"
 #include <string.h>
 
-// Реализация логирования с уровнями
 void log_message(const char *level, const char *message) {
     FILE *log_file = fopen("app.log", "a");
     if (log_file != NULL) {
@@ -10,7 +9,6 @@ void log_message(const char *level, const char *message) {
     }
 }
 
-// Надежный парсер конфигурационного файла KEY=VALUE
 int read_config(const char *config_file, char *out_input_file, int *out_debug_mode) {
     FILE *f = fopen(config_file, "r");
     if (!f) {
@@ -77,7 +75,9 @@ char* read_file(const char *bf_file, int *size_bf) {
 
     int size = 0;
     char ch;
-    while ((ch = fgetc(in)) != EOF) size++;
+    while ((ch = fgetc(in)) != EOF){
+        size++;
+    }
 
     fclose(in);
     in = fopen(bf_file, "rb");
@@ -131,7 +131,6 @@ void save_to_file(const char *type, int size) {
     }
 }
 
-// Изменено на int: возвращает 0 при успехе, -1 при ошибке
 int run_interpreter(const char *code, int code_size, char *type, int type_size, int debug_mode) {
     int pc = 0;  
     int ptr = 0; 
