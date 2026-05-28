@@ -1,0 +1,8 @@
+gdb_ex1
+gdb_ex2
+gdb_ex3
+gdb_ex4
+*.out
+./otladchik/first
+./otladchik
+.vscode/
