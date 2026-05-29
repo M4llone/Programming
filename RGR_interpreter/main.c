@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
     run_interpreter(code, code_size, type, type_size, debug_mode);
 
 
-    save_to_file(type, 5);
+    save_to_file(type, 20);
 
 
     free(code);

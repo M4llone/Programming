@@ -12,7 +12,7 @@ void log_message(const char *level, const char *message) {
 int read_config(const char *config_file, char *out_input_file, int *out_debug_mode) {
     FILE *f = fopen(config_file, "r");
     if (!f) {
-        printf("Err: Конфигурационный файл <%s> не найден\n", config_file);
+        printf("Конфигурационный файл <%s> не найден\n", config_file);
         log_message("ERROR", "Config file not found");
         return 0;
     }
